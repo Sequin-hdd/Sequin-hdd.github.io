@@ -2,14 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xxx.github.io/post/blog/</loc>
+    <loc>https://github.com/Sequin-hdd.github.io/post/blog/</loc>
   </url><url>
-    <loc>https://xxx.github.io/categories/</loc>
+    <loc>https://github.com/Sequin-hdd.github.io/post/java%E5%AD%A6%E4%B9%A0/</loc>
   </url><url>
-    <loc>https://xxx.github.io/</loc>
+    <loc>https://github.com/Sequin-hdd.github.io/categories/</loc>
   </url><url>
-    <loc>https://xxx.github.io/post/</loc>
+    <loc>https://github.com/Sequin-hdd.github.io/</loc>
   </url><url>
-    <loc>https://xxx.github.io/tags/</loc>
+    <loc>https://github.com/Sequin-hdd.github.io/post/</loc>
+  </url><url>
+    <loc>https://github.com/Sequin-hdd.github.io/tags/</loc>
   </url>
 </urlset>

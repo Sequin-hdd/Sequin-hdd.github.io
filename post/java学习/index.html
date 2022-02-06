@@ -1,0 +1,1409 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https:\/\/github.com\/Sequin-hdd.github.io\/"
+        },
+        "articleSection" : "post",
+        "name" : "",
+        "headline" : "",
+        "description" : "java学习 java简介——为什么会有Java？ 诞生于 1995 年，java源于c、c\u002b\u002b，具有简单性，面向对象，可移植性（核心JVM，实现write once，run anywhere），高性能，分布式，动态性（反射），多线程，安全性（可构建防病毒防篡改），健壮性（异常机制）等特性。\nc：1.内存和指针管理问题（在编译期不能发现，在运行时才会暴露） 2.不同系统编译报错问题 c\u002b\u002b：增加了很多复杂的特性，难以掌握\n ps： 三高问题： 高可用 高性能 高并发\n 三大版本：\njavaSE 标准版开发 桌面程序、控制台开发\u0026hellip;\njavaME 嵌入式开发 手机、家电\u0026hellip;\njavaEE 企业级开发 web端、服务器端\nJDK、JRE、JVM java development kit 用于开发 java runtime environment 用于运行 java virtual machine 实现程序跨平台运行 范围: JDK\u0026gt;JRE\u0026gt;JVM\n开发环境 卸载JDK  删除java安装的目录 删除JAVA_HOME 删除path下关于java的目录 cmd 输入 java -version校验  安装JDK   百度搜索\n  同意协议\n  下载对应的版本 双击exe进行安装\n  在系统变量 配置环境变量 JAVA_HOME(安装的路径)\n  在系统变量 配置path环境变量",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "0001",
+        "datePublished": "0001-01-01 00:00:00 \u002b0000 UTC",
+        "dateModified" : "0001-01-01 00:00:00 \u002b0000 UTC",
+        "url" : "https:\/\/github.com\/Sequin-hdd.github.io\/post\/java%E5%AD%A6%E4%B9%A0\/",
+        "wordCount" : "1208",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            
+                <title>My New Hugo Site</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.88.1" />
+        
+
+
+        
+        
+            
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="java学习 java简介——为什么会有Java？ 诞生于 1995 年，java源于c、c&#43;&#43;，具有简单性，面向对象，可移植性（核心JVM，实现write once，run anywhere），高性能，分布式，动态性（反射），多线程，安全性（可构建防病毒防篡改），健壮性（异常机制）等特性。
+c：1.内存和指针管理问题（在编译期不能发现，在运行时才会暴露） 2.不同系统编译报错问题 c&#43;&#43;：增加了很多复杂的特性，难以掌握
+ ps： 三高问题： 高可用 高性能 高并发
+ 三大版本：
+javaSE 标准版开发 桌面程序、控制台开发&hellip;
+javaME 嵌入式开发 手机、家电&hellip;
+javaEE 企业级开发 web端、服务器端
+JDK、JRE、JVM java development kit 用于开发 java runtime environment 用于运行 java virtual machine 实现程序跨平台运行 范围: JDK&gt;JRE&gt;JVM
+开发环境 卸载JDK  删除java安装的目录 删除JAVA_HOME 删除path下关于java的目录 cmd 输入 java -version校验  安装JDK   百度搜索
+  同意协议
+  下载对应的版本 双击exe进行安装
+  在系统变量 配置环境变量 JAVA_HOME(安装的路径)
+  在系统变量 配置path环境变量"/>
+
+        <meta property="og:title" content="" />
+<meta property="og:description" content="java学习 java简介——为什么会有Java？ 诞生于 1995 年，java源于c、c&#43;&#43;，具有简单性，面向对象，可移植性（核心JVM，实现write once，run anywhere），高性能，分布式，动态性（反射），多线程，安全性（可构建防病毒防篡改），健壮性（异常机制）等特性。
+c：1.内存和指针管理问题（在编译期不能发现，在运行时才会暴露） 2.不同系统编译报错问题 c&#43;&#43;：增加了很多复杂的特性，难以掌握
+ ps： 三高问题： 高可用 高性能 高并发
+ 三大版本：
+javaSE 标准版开发 桌面程序、控制台开发&hellip;
+javaME 嵌入式开发 手机、家电&hellip;
+javaEE 企业级开发 web端、服务器端
+JDK、JRE、JVM java development kit 用于开发 java runtime environment 用于运行 java virtual machine 实现程序跨平台运行 范围: JDK&gt;JRE&gt;JVM
+开发环境 卸载JDK  删除java安装的目录 删除JAVA_HOME 删除path下关于java的目录 cmd 输入 java -version校验  安装JDK   百度搜索
+  同意协议
+  下载对应的版本 双击exe进行安装
+  在系统变量 配置环境变量 JAVA_HOME(安装的路径)
+  在系统变量 配置path环境变量" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://github.com/Sequin-hdd.github.io/post/java%E5%AD%A6%E4%B9%A0/" /><meta property="article:section" content="post" />
+
+
+
+
+        <meta property="og:image" content="https://github.com/Sequin-hdd.github.io//images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        <meta itemprop="name" content="">
+<meta itemprop="description" content="java学习 java简介——为什么会有Java？ 诞生于 1995 年，java源于c、c&#43;&#43;，具有简单性，面向对象，可移植性（核心JVM，实现write once，run anywhere），高性能，分布式，动态性（反射），多线程，安全性（可构建防病毒防篡改），健壮性（异常机制）等特性。
+c：1.内存和指针管理问题（在编译期不能发现，在运行时才会暴露） 2.不同系统编译报错问题 c&#43;&#43;：增加了很多复杂的特性，难以掌握
+ ps： 三高问题： 高可用 高性能 高并发
+ 三大版本：
+javaSE 标准版开发 桌面程序、控制台开发&hellip;
+javaME 嵌入式开发 手机、家电&hellip;
+javaEE 企业级开发 web端、服务器端
+JDK、JRE、JVM java development kit 用于开发 java runtime environment 用于运行 java virtual machine 实现程序跨平台运行 范围: JDK&gt;JRE&gt;JVM
+开发环境 卸载JDK  删除java安装的目录 删除JAVA_HOME 删除path下关于java的目录 cmd 输入 java -version校验  安装JDK   百度搜索
+  同意协议
+  下载对应的版本 双击exe进行安装
+  在系统变量 配置环境变量 JAVA_HOME(安装的路径)
+  在系统变量 配置path环境变量">
+
+<meta itemprop="wordCount" content="1208">
+<meta itemprop="keywords" content="" />
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="/Sequin-hdd.github.io/css/main.css">
+            <link rel="stylesheet" href="/Sequin-hdd.github.io/css/add-on.css">
+            <link rel="stylesheet" href="/Sequin-hdd.github.io/css/academicons.min.css">
+        
+
+        
+
+
+  
+    
+
+
+      
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="/Sequin-hdd.github.io/"></a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="https://github.com/Sequin-hdd.github.io/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="https://github.com/Sequin-hdd.github.io/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/Sequin-hdd.github.io/post/blog/"></a></h3>
+                                
+                                <time class="published" datetime=
+                                    '0001-01-01'>
+                                    January 1, 0001</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/Sequin-hdd.github.io/post/java%E5%AD%A6%E4%B9%A0/"></a></h3>
+                                
+                                <time class="published" datetime=
+                                    '0001-01-01'>
+                                    January 1, 0001</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/Sequin-hdd.github.io/post/">Posts</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '0001-01-01'>
+                                    January 1, 0001</time>
+                            </header>
+                            
+
+                        </article>
+                
+
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fgithub.com%2fSequin-hdd.github.io%2fpost%2fjava%25E5%25AD%25A6%25E4%25B9%25A0%2f&amp;text=&amp;via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fgithub.com%2fSequin-hdd.github.io%2fpost%2fjava%25E5%25AD%25A6%25E4%25B9%25A0%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fgithub.com%2fSequin-hdd.github.io%2fpost%2fjava%25E5%25AD%25A6%25E4%25B9%25A0%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fgithub.com%2fSequin-hdd.github.io%2fpost%2fjava%25E5%25AD%25A6%25E4%25B9%25A0%2f&amp;title=" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fgithub.com%2fSequin-hdd.github.io%2fpost%2fjava%25E5%25AD%25A6%25E4%25B9%25A0%2f&amp;title=" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fgithub.com%2fSequin-hdd.github.io%2fpost%2fjava%25E5%25AD%25A6%25E4%25B9%25A0%2f&amp;title=" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fgithub.com%2fSequin-hdd.github.io%2fpost%2fjava%25E5%25AD%25A6%25E4%25B9%25A0%2f&amp;description=" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by &amp;body=https%3a%2f%2fgithub.com%2fSequin-hdd.github.io%2fpost%2fjava%25E5%25AD%25A6%25E4%25B9%25A0%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="/Sequin-hdd.github.io/post/java%E5%AD%A6%E4%B9%A0/"></a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='0001-01-01'>
+            January 1, 0001</time>
+        <span class="author"></span>
+        
+        
+    </div>
+</header>
+
+
+  
+
+  
+
+  <div id="content">
+    <h1 id="java学习">java学习</h1>
+<h2 id="java简介为什么会有java">java简介——为什么会有Java？</h2>
+<p>诞生于 1995 年，java源于c、c++，具有简单性，面向对象，可移植性（核心JVM，实现write once，run anywhere），高性能，分布式，动态性（反射），多线程，安全性（可构建防病毒防篡改），健壮性（异常机制）等特性。</p>
+<p>c：1.内存和指针管理问题（在编译期不能发现，在运行时才会暴露）  2.不同系统编译报错问题
+c++：增加了很多复杂的特性，难以掌握</p>
+<blockquote>
+<p>ps：
+三高问题： 高可用 高性能 高并发</p>
+</blockquote>
+<p>三大版本：</p>
+<p>javaSE 标准版开发 桌面程序、控制台开发&hellip;</p>
+<p>javaME 嵌入式开发 手机、家电&hellip;</p>
+<p>javaEE 企业级开发 web端、服务器端</p>
+<h2 id="jdkjrejvm">JDK、JRE、JVM</h2>
+<p>java development kit  用于开发
+java runtime environment   用于运行
+java virtual machine 实现程序跨平台运行
+范围: JDK&gt;JRE&gt;JVM</p>
+<h2 id="开发环境">开发环境</h2>
+<h3 id="卸载jdk">卸载JDK</h3>
+<ol>
+<li>删除java安装的目录</li>
+<li>删除<code>JAVA_HOME</code></li>
+<li>删除path下关于java的目录</li>
+<li>cmd 输入 <code>java -version</code>校验</li>
+</ol>
+<h3 id="安装jdk">安装JDK</h3>
+<ol>
+<li>
+<p>百度搜索</p>
+</li>
+<li>
+<p>同意协议</p>
+</li>
+<li>
+<p>下载对应的版本 双击exe进行安装</p>
+</li>
+<li>
+<p>在系统变量 配置环境变量  JAVA_HOME(安装的路径)</p>
+</li>
+<li>
+<p>在系统变量 配置path环境变量</p>
+<ul>
+<li>%JAVA_HOME%\bin(该目录下包含执行java需要用到的小程序)</li>
+<li>%JAVA_HOME%\jre\bin</li>
+</ul>
+</li>
+<li>
+<p>cmd 输入 <code>java -version</code>校验</p>
+<blockquote>
+<p>javac不是内部或外部命令,也不是可运行的程序 解决办法一
+(1)新建-&gt;变量名&quot;JAVA_HOME&quot;，变量值&quot;C:\Java\jdk1.8.0_05&quot;（即JDK的安装路径） 
+(2)编辑-&gt;变量名&quot;Path&quot;，在原变量值的最后面加上“;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin” ,win10去掉分号，隔行即可
+(3)新建-&gt;变量名“CLASSPATH”,变量值“.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar”</p>
+</blockquote>
+</li>
+</ol>
+<h3 id="jdk目录介绍">JDK目录介绍</h3>
+<p>bin   存放java可执行文件
+jre    java运行时环境，实现java程序的执行
+include  存放运行时需要引用c语言头文件
+lib 存放java开发需要用到的类库文件
+src  资源文件，存放java基础类的源代码</p>
+<h3 id="java帮助文档下载">java帮助文档下载</h3>
+<h2 id="编译型解释型">编译型、解释型</h2>
+<ul>
+<li>编译与解释都有翻译的意思</li>
+<li>主要区别在于翻译的时机不同：编译一次性翻译，解释实时翻译</li>
+<li>java既有编译型特点又有解释型特点，java在执行前会进行一次预编译，在操作系统运行时才进行解释，走一步运行一步。
+<img src="/java.assets/image-20220204151533914.png" alt="image-20220204151533914"></li>
+</ul>
+<ol>
+<li>编写代码 输出.java文件   （文件名和类名必须保证一致）</li>
+<li><code>javac</code> 编译.java文件 生成.class文件(字节码文件)</li>
+<li><code>java</code> 运行.class文件</li>
+</ol>
+<h2 id="java基础语法">Java基础语法</h2>
+<h3 id="1--注释-标识符-关键字">1.  注释 标识符 关键字</h3>
+<p><strong>注释</strong> &ndash; 不是写do what 而是写 why do</p>
+<ul>
+<li>单行注释   ctrl+/</li>
+<li>多行注释  ctrl+shift+/</li>
+<li>文档注释   /**回车</li>
+</ul>
+<p><strong>关键字</strong>
+<img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220204154641871.png" alt="image-20220204154641871"></p>
+<blockquote>
+<p>Java中的访问修饰符：</p>
+<p><img src="/java%E5%AD%A6%E4%B9%A0.assets/64fdae113dbadd95df5ff656e934cda9.png" alt="64fdae113dbadd95df5ff656e934cda9.png"></p>
+<p>不写默认是default</p>
+</blockquote>
+<p><strong>标识符</strong></p>
+<ul>
+<li>可以以英文字母开头、$、_开头</li>
+<li>不能使用关键字作为变量名或方法名</li>
+<li>大小写敏感</li>
+<li>可以用中文命名，但不建议</li>
+</ul>
+<h3 id="2-数据类型">2. 数据类型</h3>
+<p><strong>java是一种强类型语言</strong></p>
+<blockquote>
+<p>强类型语言：要求变量的使用严格符合规定，所有变量都要求先定义后才能使用</p>
+<p>​	好处：安全性高     &mdash;     速度慢</p>
+<p>弱类型语言</p>
+</blockquote>
+<p><strong>java的数据类型分为两大类：</strong>
+基本类型：<strong>byte</strong> <strong>short</strong> <strong>int</strong> <strong>long</strong> <strong>float</strong> <strong>double</strong> <strong>char</strong> <strong>boolean</strong>
+引用类型： <strong>类</strong> <strong>接口</strong> <strong>数组</strong>   （例如：String不是关键字，是类）</p>
+<blockquote>
+<p>char a = &lsquo;a&rsquo;;   // 字符通过’‘括住</p>
+<p>String s = &ldquo;a&rdquo;;   // 字符串通过&quot;&ldquo;括住</p>
+</blockquote>
+<p>ps：除了基本类型默认初始化如下，其余数据类型的初始化默认值都是null</p>
+<ul>
+<li>数字： 0 0.0</li>
+<li>char：u0000</li>
+<li>boolean：false</li>
+<li>引用：null</li>
+</ul>
+<blockquote>
+<p>什么是字节？</p>
+<ul>
+<li>位（bit）：计算机内部数据存储的最小单位， 11001100是一个八位二进制数。</li>
+<li>字节（byte）：计算机数据处理的基本单位，通常用B表示</li>
+<li>1B=8bit</li>
+<li>字符：指计算机中使用的字母、数字、字和符号</li>
+</ul>
+<blockquote>
+<ul>
+<li>1bit表示1位</li>
+<li>1Byte表示一字节 1B=8b</li>
+<li>1024B=1KB</li>
+<li>1024KB=1M</li>
+<li>1024M=1G</li>
+</ul>
+</blockquote>
+</blockquote>
+<p><strong>数据类型扩展：</strong></p>
+<p>整数扩展： 二进制 0b     十进制        八进制 0     十六进制 0x
+​	JDK7新特性，数字之间可以用下划线分割</p>
+<p>浮点数扩展：float是有限、离散的 存在舍入误差   接近但不等于赋值
+<img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220204161719721.png" alt="image-20220204161719721">
+​	<strong>解决办法</strong>：使用BigDecimal数学工具类解决</p>
+<p>字符扩展：所有的字符本质还是数字可以通过(int)强制转化  一个字符两个字节2**16位  转义字符\t \n &hellip;</p>
+<h3 id="3-类型转换">3. 类型转换</h3>
+<p><strong>为什么</strong>？ java是强类型语言，在进行运输时，需要用到类型转换</p>
+<p><strong>高容量到低容量排序：</strong>
+byte，short，char-&gt;int-&gt;long-&gt;float-&gt;double</p>
+<p><strong>要注意什么？</strong>
+不能对boolean进行转换
+不能把对象类型转换为不相干的类型</p>
+<p><strong>转换方式：</strong>
+强制转换  高-&gt;低</p>
+<ul>
+<li>格式：（类型）变量名</li>
+<li>要注意内存溢出问题，精度问题
+自动转换 低-&gt;高</li>
+</ul>
+<h3 id="4-变量--常量作用域">4. 变量  、常量、作用域</h3>
+<p><strong>变量—— 可以变化的量</strong></p>
+<p>强类型语言，每个变量都必须声明其类型
+java变量是程序中最基本的存储单元，其要素包括变量名，变量类型，作用域
+变量类型 变量名=值；</p>
+<p>变量作用域</p>
+<ul>
+<li>类变量      加上<code>static</code>进行  在类里面 方法外面</li>
+<li>实例变量   在类里面 方法外面</li>
+<li>局部变量   在方法里面</li>
+</ul>
+<blockquote>
+<p>实例变量在方法中引用，需要先new对象，再引用，类变量可以直接在方法中调用</p>
+</blockquote>
+<p>变量命名规范：
+类成员变量、局部变量、方法名遵循首字母小写、驼峰原则 （idea可以按照CamelCase插件 使用shift+alt+u进行切换）
+类名遵循首字母大写、驼峰原则</p>
+<p><strong>常量—— 初始化后不能再改变的值</strong>
+使用<code>final</code>进行修饰</p>
+<blockquote>
+<p>ps: <code>static final</code>  和 <code>final static</code> 不存在先后顺序</p>
+</blockquote>
+<p>常量作用域： 同上
+命名规范：大写字母和下划线</p>
+<h3 id="5运算符">5.运算符</h3>
+<p>算术运算符 + - * / % ++ &ndash;
+赋值运算符 =
+关系运算符 &gt; &lt; &gt;= &lt;= == != instanceof
+逻辑运算符 &amp;&amp; ||  !
+位运算符 &amp; | ^ ~ &raquo; &laquo; &raquo;&gt;
+条件运算符 ? :
+扩展赋值运算符 += -= *= /=</p>
+<p>++ &ndash; 自增运算符 一元运算符：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">a <span style="color:#f92672">=</span> 3<span style="color:#f92672">;</span>
+b <span style="color:#f92672">=</span> a<span style="color:#f92672">++;</span>   <span style="color:#960050;background-color:#1e0010">#</span>先赋值再进行<span style="color:#f92672">+</span>1自增
+c <span style="color:#f92672">=</span> <span style="color:#f92672">++</span>a<span style="color:#f92672">;</span>   <span style="color:#960050;background-color:#1e0010">#</span>先<span style="color:#f92672">+</span>1自增再进行赋值
+</code></pre></div><p>幂运算：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Math<span style="color:#f92672">.</span><span style="color:#a6e22e">pow</span><span style="color:#f92672">(</span>2<span style="color:#f92672">,</span>3<span style="color:#f92672">);</span>    <span style="color:#960050;background-color:#1e0010">#</span>2的3次方
+</code></pre></div><p>三元运算符：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">x<span style="color:#f92672">?</span> y <span style="color:#f92672">:</span> z<span style="color:#f92672">;</span>     <span style="color:#960050;background-color:#1e0010">#</span>如果x为真<span style="color:#960050;background-color:#1e0010">，</span>返回y<span style="color:#960050;background-color:#1e0010">；</span>反之返回z
+</code></pre></div><blockquote>
+<p>一元运算符：有一个操作数
+二元运算符：有两个操作数
+三元运算符：见上</p>
+</blockquote>
+<p>运算符优先级 （可以用括号强制规定优先级）</p>
+<h3 id="6-包机制">6. 包机制</h3>
+<ul>
+<li>
+<p>包是用来组织类的，区分类名的命名空间</p>
+</li>
+<li>
+<p>包的本质就是一个文件夹</p>
+</li>
+<li>
+<p>一般利用公司域名作为包名</p>
+</li>
+<li>
+<p>使用<code>import</code>引用包</p>
+</li>
+</ul>
+<blockquote>
+<p>开发规范可以参考借鉴《阿里巴巴开发手册》等</p>
+</blockquote>
+<h3 id="7-javadoc生成">7. JavaDoc生成</h3>
+<p>javaDoc命令用来生成自己的API文档的</p>
+<p>参数信息：</p>
+<ul>
+<li>@author 作者名</li>
+<li>@version 版本名</li>
+<li>@since 指明需要最早使用的jdk版本</li>
+<li>@param 参数名</li>
+<li>@return 返回值情况</li>
+<li>@throws 溢出抛出情况</li>
+</ul>
+<p>实现方式：</p>
+<p>#使用命令行生成javaDoc</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">javadoc -encodeing UTF-8 -chartset UTF-8 xxx.java
+</code></pre></div><p>#使用IDEA生成javaDoc</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">(</span>1<span style="color:#f92672">)</span>点击IntelliJ IDEA顶部的Tools菜单，选择Generate JavaDoc选项
+<span style="color:#f92672">(</span>2<span style="color:#f92672">)</span>在弹出界面的Output directory中指定输出路径
+（3）在Locale处配置语言和编码集，语言用zh_CN，代表中文
+（4）在Other command line arguments输入 -encoding utf-8 -charset utf-8
+在输出路径查找index.html文件,点击就能看到API文档
+</code></pre></div><h2 id="java流程控制">Java流程控制</h2>
+<h3 id="scanner对象">Scanner对象</h3>
+<ul>
+<li>
+<p>java.util.Scanner 用来实现程序和人的交互</p>
+</li>
+<li>
+<p>基本语法:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Scanner s <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Scanner<span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">in</span><span style="color:#f92672">);</span>
+</code></pre></div></li>
+<li>
+<p>通过next()与nextLine()方法获取输入的字符串，在读取前使用hasNext()与hasNextLine()判断是否还有输入的数据</p>
+</li>
+</ul>
+<blockquote>
+<p>凡是使用属于io流的类，都应该养成习惯用完就关掉</p>
+</blockquote>
+<p><img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220204182005648.png" alt="image-20220204182005648"></p>
+<p>扩展： nextInt nextDouble nextFloat</p>
+<h3 id="顺序结构">顺序结构</h3>
+<p>从上到下依次执行，最基本的结构</p>
+<h3 id="选择结构">选择结构</h3>
+<ul>
+<li>
+<p>if单选择结构</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>布尔表达式<span style="color:#f92672">){</span>
+<span style="color:#f92672">}</span>
+</code></pre></div></li>
+<li>
+<p>if双选择结构</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>布尔表达式<span style="color:#f92672">){</span>
+<span style="color:#f92672">}</span><span style="color:#66d9ef">else</span><span style="color:#f92672">{</span>
+<span style="color:#f92672">}</span>
+</code></pre></div></li>
+<li>
+<p>if多选择结构</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>布尔表达式 1<span style="color:#f92672">){</span>
+<span style="color:#f92672">}</span><span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>布尔表达式 2<span style="color:#f92672">){</span>
+<span style="color:#f92672">}</span><span style="color:#66d9ef">else</span><span style="color:#f92672">{</span>
+<span style="color:#f92672">}</span>
+</code></pre></div></li>
+<li>
+<p>嵌套的if结构</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>布尔表达式 1<span style="color:#f92672">){</span>
+    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>布尔表达式 2<span style="color:#f92672">){</span>
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div></li>
+<li>
+<p>switch多选择结构</p>
+<p>用于判断一个变量与一系列值中某个值是否相等</p>
+<p>变量类型可以是 long、short、int、char、JDK7后还支持String</p>
+<p>case标签必须是字符串常量或者字面量</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">switch</span><span style="color:#f92672">(</span>变量<span style="color:#f92672">){</span>
+    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;A&#34;</span><span style="color:#f92672">:</span> xxxx<span style="color:#f92672">;</span> <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span> <span style="color:#75715e">// break尽量写上
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;B&#34;</span><span style="color:#f92672">:</span> xxxx<span style="color:#f92672">;</span> <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+    <span style="color:#66d9ef">default</span><span style="color:#f92672">:</span> xxx<span style="color:#f92672">;</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>IDEA支持反编译字节码文件(.class)，通过查看反编译后的源码，可以看到，switch比较的是变量对象的哈希值与case的哈希值是否相等</p>
+<p><img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220204222153257.png" alt="image-20220204222153257"></p>
+</li>
+</ul>
+<blockquote>
+<p>反编译文件打开路径： File &ndash;&gt; Project Structure &ndash;&gt; Project &ndash;&gt; output</p>
+<p><img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220206143707274.png" alt="image-20220206143707274"></p>
+</blockquote>
+<h3 id="循环结构">循环结构</h3>
+<ul>
+<li>
+<p>while循环 &ndash;先判断后执行</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">while</span><span style="color:#f92672">(</span>布尔表达式<span style="color:#f92672">){}</span>
+</code></pre></div></li>
+<li>
+<p>do&hellip;while循环 &ndash;先执行后判断</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Java" data-lang="Java"><span style="color:#66d9ef">do</span><span style="color:#f92672">{</span>
+   <span style="color:#75715e">// 代码块 
+</span><span style="color:#75715e"></span><span style="color:#f92672">}</span> <span style="color:#66d9ef">while</span><span style="color:#f92672">(</span>布尔表达式<span style="color:#f92672">)</span>
+</code></pre></div></li>
+<li>
+<p>for循环 &ndash;最有效最灵活的循环结构</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"> <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span>初始化<span style="color:#f92672">;</span>布尔表达式<span style="color:#f92672">;</span>更新<span style="color:#f92672">){</span>
+     <span style="color:#75715e">// 代码块
+</span><span style="color:#75715e"></span> <span style="color:#f92672">}</span>
+</code></pre></div><p>IDEA快捷方式 100.for 会自动生成：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i<span style="color:#f92672">&lt;</span>100<span style="color:#f92672">;</span> i<span style="color:#f92672">++){}</span>
+</code></pre></div></li>
+<li>
+<p>增强for循环</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">for</span><span style="color:#f92672">(</span>声明语句 <span style="color:#f92672">:</span> 表达式<span style="color:#f92672">){</span>
+    <span style="color:#75715e">// 代码块
+</span><span style="color:#75715e"></span><span style="color:#f92672">}</span>
+</code></pre></div></li>
+<li>
+<p>break continue</p>
+<p>break 终止循环，跳出循环</p>
+<p>continue 终止<strong>某次</strong>循环，跳到循环开始的地方，继续下一次循环</p>
+<blockquote>
+<p>使用标签lable: 可以实现goto的功能</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">outer: <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> j <span style="color:#f92672">&lt;</span> 100<span style="color:#f92672">;</span> j<span style="color:#f92672">++){</span>
+    <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i<span style="color:#f92672">&lt;</span>100<span style="color:#f92672">;</span> i<span style="color:#f92672">++){</span>
+        <span style="color:#66d9ef">continue</span> outer<span style="color:#f92672">;</span>
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div></blockquote>
+</li>
+</ul>
+<h2 id="java方法">java方法</h2>
+<h3 id="方法定义">方法定义</h3>
+<p>类似于其他语言的函数，
+语句的集合，用来执行与完成某个功能。</p>
+<ul>
+<li>
+<p>方法遵循原子性，一个方法只做一个功能</p>
+</li>
+<li>
+<p>一个方法有以下几部分组成：</p>
+<ul>
+<li>
+<p>方法头</p>
+<ul>
+<li>修饰符 static &hellip;</li>
+<li>返回值类型 int long boolean &hellip;</li>
+<li>方法名 首字母小写、驼峰型</li>
+</ul>
+</li>
+<li>
+<p>方法体</p>
+<ul>
+<li>如果返回类型不为void，那么需要return结构  （return除了可以输出值，还可以终止方法</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="方法调用">方法调用</h3>
+<p>调用方式： 对象名.方法名(实参列表)</p>
+<p>注意点：<strong>值传递</strong> <strong>引用传递</strong></p>
+<h3 id="方法重载">方法重载</h3>
+<p>在一个类中，两个方法的<strong>方法名相同</strong>，但是<strong>形参不同</strong>（个数不同/类型不同/排列顺序不同）。</p>
+<p>实现原理：方法名称相同时，编译器会根据调用方法的参数个数、参数类型等逐个匹配，以选择对应的方法，如果匹配失败，则编译器报错。</p>
+<h3 id="命令行传参">命令行传参</h3>
+<p>java xxx.class xxxx(参数)</p>
+<h3 id="可变参数">可变参数</h3>
+<p>一个方法只能指定一个可变参数，它必须是最后一个参数，任何普通的参数必须在它之前声明。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">func</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span><span style="color:#f92672">...</span> ints<span style="color:#f92672">){</span>
+    <span style="color:#75715e">// 代码块
+</span><span style="color:#75715e"></span><span style="color:#f92672">}</span>
+</code></pre></div><h3 id="递归">递归</h3>
+<p>方法自己调用自己</p>
+<p>递归不一定是最好的思路。递归的深度越大，占有的内存就会越多。</p>
+<p>java使用栈机制实现递归。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">f</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> n<span style="color:#f92672">){</span>
+    <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>n <span style="color:#f92672">==</span> 1<span style="color:#f92672">){</span>
+        <span style="color:#66d9ef">return</span> 1<span style="color:#f92672">;</span>
+    <span style="color:#f92672">}</span><span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">return</span> n <span style="color:#f92672">*</span> f<span style="color:#f92672">(</span>n<span style="color:#f92672">-</span>1<span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><h2 id="数组">数组</h2>
+<p>相同类型数据的有序集合</p>
+<p>每个数组元素可以通过下标来进行访问</p>
+<h3 id="数组的声明和创建">数组的声明和创建</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">/* 声明 */</span>
+dataType<span style="color:#f92672">[]</span> arrayRefVar<span style="color:#f92672">;</span>   <span style="color:#75715e">// 首选
+</span><span style="color:#75715e">// 或
+</span><span style="color:#75715e"></span>dataType arrayRefVar<span style="color:#f92672">[];</span>   <span style="color:#75715e">// c和c++风格
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">/* 创建 */</span>
+arrayRefVar <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[</span>size<span style="color:#f92672">];</span>
+
+<span style="color:#75715e">/* 获取数组长度 */</span>
+arrayRefVar<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span>
+    
+<span style="color:#75715e">/* 通过下标获取数组元素 */</span>
+arrayRefVar<span style="color:#f92672">[</span>index<span style="color:#f92672">];</span>
+    
+<span style="color:#75715e">/* 对数组某元素进行赋值 */</span>
+arrayRefVar<span style="color:#f92672">[</span>index<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> value<span style="color:#f92672">;</span>
+</code></pre></div><p>数组在创建的时候需要确定长度，数组的长度是固定的。</p>
+<h3 id="三种初始化及内存分析">三种初始化及内存分析</h3>
+<p>静态初始化</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// 初始化时，即创建又赋值
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> a <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>1<span style="color:#f92672">,</span> 2<span style="color:#f92672">,</span> 3<span style="color:#f92672">}</span>
+</code></pre></div><p>动态初始化 &ndash; 包含默认初始化</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> a <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[</span>2<span style="color:#f92672">];</span>
+a<span style="color:#f92672">[</span>0<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> 1<span style="color:#f92672">;</span>
+</code></pre></div><p>默认初始化</p>
+<p>数组变量属于引用类型，数组内的元素相当于类的实例变量，因此数组一经分配空间，其中的每个元素也被按照实例变量同样的方式隐式初始化。</p>
+<p>内存分析</p>
+<p><img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220205102322019.png" alt="image-20220205102322019"></p>
+<h3 id="数组的特点">数组的特点</h3>
+<ul>
+<li>长度固定</li>
+<li>元素必须是相同类型</li>
+<li>元素可以是任何数据类型，包括基本类型和引用类型</li>
+<li>数组变量属于引用类型，数组本身就是对象，数组中的每个元素是对象的成员变量。java中对象是在堆中的，因此数组无论保留原始类型还是其他对象类型，数组对象本身是在堆中的。</li>
+</ul>
+<h3 id="数组边界问题">数组边界问题</h3>
+<p>数组合法区间： [0, length-1]</p>
+<p>越界会报：ArrayIndexOutOfBounds</p>
+<h3 id="数组的使用">数组的使用</h3>
+<p>普通的for循环
+for each 循环
+数组做方法入参
+数组做返回值</p>
+<h3 id="多维数组">多维数组</h3>
+<p>即数组的数组，数组的每个元素都是一个数组</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">int</span><span style="color:#f92672">[][]</span> array <span style="color:#f92672">=</span> <span style="color:#f92672">{{</span>1<span style="color:#f92672">,</span> 2<span style="color:#f92672">},</span> <span style="color:#f92672">{</span>3<span style="color:#f92672">,</span> 4<span style="color:#f92672">},</span> <span style="color:#f92672">{</span>5<span style="color:#f92672">,</span> 6<span style="color:#f92672">}}</span>
+</code></pre></div><p><img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220205111328205.png" alt="image-20220205111328205"></p>
+<h3 id="数组的应用">数组的应用</h3>
+<h4 id="arrays类讲解">Arrays类讲解</h4>
+<p>java.util.Arrays</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> a <span style="color:#f92672">=</span> <span style="color:#f92672">{</span>1<span style="color:#f92672">,</span> 2<span style="color:#f92672">,</span> 3<span style="color:#f92672">};</span>
+Arrays<span style="color:#f92672">.</span><span style="color:#a6e22e">fill</span><span style="color:#f92672">(</span>a<span style="color:#f92672">,</span> 0<span style="color:#f92672">);</span>   <span style="color:#75715e">//填充
+</span><span style="color:#75715e"></span>a<span style="color:#f92672">.</span><span style="color:#a6e22e">sort</span><span style="color:#f92672">();</span>  <span style="color:#75715e">// 排序
+</span><span style="color:#75715e"></span>a<span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">();</span>  <span style="color:#75715e">// 打印
+</span></code></pre></div><h4 id="冒泡排序">冒泡排序</h4>
+<p>两层循环，外层冒泡轮数，里层依次比较</p>
+<p>时间复杂度O(n^2^)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">sort</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> array<span style="color:#f92672">){</span>
+    <span style="color:#75715e">// 临时变量
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">int</span> temp <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
+    
+    <span style="color:#75715e">// 优化： 添加标志
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">boolean</span> flag <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span><span style="color:#960050;background-color:#1e0010">；</span>
+    
+    <span style="color:#75715e">// 外层循环判断要走多少次
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> array<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span> <span style="color:#f92672">-</span> 1<span style="color:#f92672">;</span> i<span style="color:#f92672">++){</span>
+        <span style="color:#75715e">// 内层循环比较判断两个数，如果第一个数比第二个数大，则交换位置
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> j <span style="color:#f92672">&lt;</span> array<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span> <span style="color:#f92672">-</span> 1 <span style="color:#f92672">-</span> i<span style="color:#f92672">;</span> j<span style="color:#f92672">++){</span>
+            <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>array<span style="color:#f92672">[</span>j<span style="color:#f92672">+</span>1<span style="color:#f92672">]&gt;</span>array<span style="color:#f92672">[</span>j<span style="color:#f92672">]){</span>
+                temp <span style="color:#f92672">=</span> array<span style="color:#f92672">[</span>j<span style="color:#f92672">];</span>
+                array<span style="color:#f92672">[</span>j<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> array<span style="color:#f92672">[</span>j<span style="color:#f92672">+</span>1<span style="color:#f92672">];</span>
+                array<span style="color:#f92672">[</span>j<span style="color:#f92672">+</span>1<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> temp<span style="color:#f92672">;</span>
+                flag <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
+            <span style="color:#f92672">}</span>
+        <span style="color:#f92672">}</span>
+        <span style="color:#75715e">// 优化： 根据标志flag来判断 数组是否已经是排好序的了
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">if</span><span style="color:#f92672">(!</span>flag<span style="color:#f92672">){</span>
+            <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
+        <span style="color:#f92672">}</span>
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><blockquote>
+<p>优化：添加标志 识别数组是否已经排好序了 提前退出循环</p>
+</blockquote>
+<h4 id="稀疏数组">稀疏数组</h4>
+<ul>
+<li>
+<p>一种数据结构</p>
+</li>
+<li>
+<p>用来解决 当数组中大部分元素为0或者为同一值的时候，可以使用稀疏数组来保存该数组</p>
+</li>
+<li>
+<p>处理方式：</p>
+<ul>
+<li>记录数组一共有几行几列，有多少个不同的值</li>
+<li>把具体不同值的元素和行列及值记录在一个小规模的数组中，从而缩小程序的规模</li>
+</ul>
+</li>
+</ul>
+<p><img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220205142849744.png" alt="image-20220205142849744"></p>
+<p>将一个普通数组转化成稀疏数组：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">array1<span style="color:#f92672">;</span>  <span style="color:#75715e">// 11*11 的二维数组
+</span><span style="color:#75715e"></span>sum<span style="color:#f92672">;</span>    <span style="color:#75715e">// 数组中不同值的个数
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">// 创建一个稀疏数组
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span><span style="color:#f92672">[][]</span> array2 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[</span>sum<span style="color:#f92672">+</span>1<span style="color:#f92672">][</span>3<span style="color:#f92672">];</span>
+
+array2<span style="color:#f92672">[</span>0<span style="color:#f92672">][</span>0<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> 11<span style="color:#f92672">;</span>
+array2<span style="color:#f92672">[</span>0<span style="color:#f92672">][</span>1<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> 11<span style="color:#f92672">;</span>
+array2<span style="color:#f92672">[</span>0<span style="color:#f92672">][</span>2<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> sum<span style="color:#f92672">;</span>
+
+<span style="color:#75715e">// 遍历二维数组,将非零的值，存在稀疏数组中
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> count <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span>
+<span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> array1<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> i<span style="color:#f92672">++){</span>
+    <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> j <span style="color:#f92672">&lt;</span> array1<span style="color:#f92672">[</span>i<span style="color:#f92672">].</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> j<span style="color:#f92672">++){</span>
+        <span style="color:#66d9ef">if</span><span style="color:#f92672">(</span>arrays1<span style="color:#f92672">[</span>i<span style="color:#f92672">][</span>j<span style="color:#f92672">]!=</span>0<span style="color:#f92672">){</span>
+            count<span style="color:#f92672">++;</span>
+            array2<span style="color:#f92672">[</span>count<span style="color:#f92672">][</span>0<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> i<span style="color:#f92672">;</span>
+            array2<span style="color:#f92672">[</span>count<span style="color:#f92672">][</span>1<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> j<span style="color:#f92672">;</span>
+            array2<span style="color:#f92672">[</span>count<span style="color:#f92672">][</span>2<span style="color:#f92672">]</span> <span style="color:#f92672">=</span> array1<span style="color:#f92672">[</span>i<span style="color:#f92672">][</span>j<span style="color:#f92672">];</span>
+        <span style="color:#f92672">}</span>
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>将稀疏数组还原回普通数组：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">int</span><span style="color:#f92672">[][]</span> array3 <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[</span>array2<span style="color:#f92672">[</span>0<span style="color:#f92672">][</span>0<span style="color:#f92672">]][</span>array2<span style="color:#f92672">[</span>0<span style="color:#f92672">][</span>1<span style="color:#f92672">]];</span>
+
+<span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 1<span style="color:#f92672">;</span> i<span style="color:#f92672">&lt;</span> array2<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> i<span style="color:#f92672">++){</span>
+    array3<span style="color:#f92672">[</span>array2<span style="color:#f92672">[</span>i<span style="color:#f92672">][</span>0<span style="color:#f92672">]][</span>array2<span style="color:#f92672">[</span>i<span style="color:#f92672">][</span>1<span style="color:#f92672">]]</span> <span style="color:#f92672">=</span> array2<span style="color:#f92672">[</span>i<span style="color:#f92672">][</span>2<span style="color:#f92672">];</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><h2 id="面向对象编程-oop">面向对象编程 OOP</h2>
+<p>以类的方式组织代码，以对象的方式组织（封装）数据。
+从认识论的角度，先有对象，后有类。对象是具体的事物。类是抽象的，是对对象的抽象。
+从代码运行的角度，先有类后有对象。类是对象的模板。</p>
+<p>一个类中只包含属性和方法。</p>
+<h3 id="面向过程面向对象">面向过程&amp;面向对象</h3>
+<p>面向过程：第一步做什么，第二步做什么&hellip;适合处理一些较为简单的问题</p>
+<p>面向对象（Object-Oriented Programming）：物以类聚，分类的思维模式。先对问题进行分类，再对分类进行单独的思考，最后对某个分类下的细节进行面向过程的思索。适合处理复杂的问题，处理多人协作问题。</p>
+<p>面向过程和面向对象实际上是不可分割的，对于一个复杂的问题，对于整个系统的分析，需要使用面向对象的思想从宏观上把握分析，但具体到微观操作，仍需要使用面向过程的思想去处理。</p>
+<h3 id="方法回顾和加深">方法回顾和加深</h3>
+<p>方法的调用</p>
+<ul>
+<li>
+<p>静态方法：和类一起加载的  调用的时候直接<code>类.方法</code>调用</p>
+</li>
+<li>
+<p>非静态方法：类实例化时才加载   调用的时候需要先new对象，再<code>对象.方法</code>调用</p>
+</li>
+<li>
+<p>值传递：只是传递了值</p>
+</li>
+<li>
+<p>引用传递：传递的是对象，本质还是值传递</p>
+</li>
+</ul>
+<h3 id="对象的创建分析">对象的创建分析</h3>
+<blockquote>
+<p>不是所有类都要写main方法的，一个项目应该只存在一个main方法</p>
+</blockquote>
+<p>使用new关键字进行创建，除了分配内存空间外，还会给创建好的对象进行默认的初始化，以及对类中的构造器进行调用。</p>
+<h3 id="构造器详解">构造器详解</h3>
+<ul>
+<li>
+<p>构造方法必须和类的名字相同，没有返回值。</p>
+</li>
+<li>
+<p>使用new关键字，本质是在调用构造器。</p>
+</li>
+<li>
+<p>构造器的本质作用是初始化值。</p>
+</li>
+</ul>
+<p>无参构造器：方法中没有传入参数</p>
+<p>有参构造器：一旦定义了有参构造，无参构造就需要进行显示定义。</p>
+<blockquote>
+<p>IDEA中使用 alt+insert 自动生成构造器、get/set &hellip;（键盘无insert时，通过Fn+E代替insert）</p>
+<p><img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220206085032534.png" alt="image-20220206085032534"></p>
+</blockquote>
+<h3 id="创建对象内存解析">创建对象内存解析</h3>
+<p><img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220205155843308.png" alt="image-20220205155843308"></p>
+<p><img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220205161802431.png" alt="image-20220205161802431"></p>
+<p>对象是通过引用来操作的：栈&ndash;&gt;堆</p>
+<p>引用即指向对象的地址</p>
+<h3 id="面向对象三大特性之封装">面向对象三大特性之封装</h3>
+<p>用来追求高内聚、低耦合。</p>
+<p>禁止直接访问一个对象中数据的实际表示，而应通过操作接口来访问，这称为信息隐藏。（<strong>属性私有，get / set</strong>）</p>
+<blockquote>
+<p>高内聚：类内部数据的操作细节由自己完成，不允许外部干预</p>
+<p>低耦合：仅暴露少量的方法给外部使用</p>
+</blockquote>
+<p>好处：</p>
+<ol>
+<li>提高程序的安全性，保护数据</li>
+<li>隐藏代码实现细节</li>
+<li>统一接口 都是getter、setter</li>
+<li>系统可维护性增加</li>
+</ol>
+<h3 id="面向对象三大特性之继承">面向对象三大特性之继承</h3>
+<p>局限性：java中类只有单继承，没有多继承。     但是接口可以多继承。
+继承是类和类之间的一种关系（<code>is a</code>关系），此外类和类之间还存在依赖、组合、聚合等关系。
+继承关系中的两个类，一个为子类（派生类），一个为父类（基类），子类继承父类，使用extends。
+子类继承了父类就会拥有父类全部的属性和方法（除了私有属性和方法外）。</p>
+<blockquote>
+<p>IDEA快捷键 <strong>ctrl+H</strong> 可以查看到某类所属的继承树</p>
+</blockquote>
+<p>在Java中，所有的类都默认直接或者间接继承Object类（java.lang.Object），</p>
+<p><strong>super</strong></p>
+<p>new一个类的时候，如歌类存在继承关系，那么会先执行父类的无参构造器，再执行子类的无参构造器。
+子类的无参构造器代码块中会默认先调用父类的无参构造器 即隐藏的第一行代码为<code>super()</code>。</p>
+<p>注意点：</p>
+<ol>
+<li>super调用父类的构造方法，必须在构造方法的第一行</li>
+<li>super必须只能出现在子类的方法或者构造方法中</li>
+<li>super和this不能同时调用构造方法（因为两个都要求放在第一行）</li>
+</ol>
+<p><strong>方法重写</strong></p>
+<p>为什么要重写：父类的功能，子类不一定需要，或者不一定满足</p>
+<p>前提：需要有继承关系，子类父类方法名相同，参数列表相同，修饰符范围可以扩大但不能缩小： public&gt;protected&gt;default&gt;private，抛出的异常范围可以被缩小但不可以扩大： ClassNotFoundException &mdash;&gt; Exception</p>
+<p>如果A继承了B，那么在new对象的时候，==父类的引用可以指向子类==。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">A a <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> A<span style="color:#f92672">();</span>
+B b <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> A<span style="color:#f92672">();</span>
+</code></pre></div><blockquote>
+<p>可以调用什么方法主要看左边定义的数据类型有哪些方法</p>
+<p>IDEA重写快捷键 ctrl+insert</p>
+</blockquote>
+<p>在调用子类父类中静态方法和非静态方法时的区别：
+对于静态方法，方法的调用只和左边定义的数据类型有关。
+对于非静态方法，子类重写父类的方法，重写方法的调用与左边定义的数据类型无关，都是调用子类重写后的方法。</p>
+<blockquote>
+<p>只能重写非私有的方法</p>
+</blockquote>
+<h3 id="面向对象三大特性之多态">面向对象三大特性之多态</h3>
+<p>多态可以提高程序的可扩展性</p>
+<p>多态即同一方法可以根据发送对象的不同而采用多种不同的行为方式。
+一个对象的实际类型是确定的，但是可以指向对象的引用的类型有很多（父类、有关系的类）</p>
+<p>多态是方法的多态，属性没有多态</p>
+<p>前提：存在继承关系，方法需要被重写，父类引用指向子类对象</p>
+<blockquote>
+<p>以下方法不能被重写：</p>
+<ol>
+<li>static 方法，==属于类，不属于实例==</li>
+<li>final 常量</li>
+<li>private 方法</li>
+</ol>
+</blockquote>
+<p><strong>instanceof和类型转换</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>X <span style="color:#66d9ef">instanceof</span> Y<span style="color:#f92672">);</span>  <span style="color:#75715e">// 能不能编译通过，主要看X（如果X是对象，则指的是X的实际类型）和Y（如果Y是对象，则指的是Y的实际类型）是否存在父子关系，如果存在，编译则通过。
+</span></code></pre></div><p>类型转换：高转低即向下转型时，需要使用<code>()</code>进行强制转换</p>
+<h3 id="static关键字">static关键字</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#75715e">// 方法执行顺序见 `//`
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Person</span><span style="color:#f92672">{</span>
+    <span style="color:#75715e">// 2
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">{</span>
+        System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;匿名代码块&#34;</span><span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span>
+    
+    <span style="color:#75715e">// 1
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">static</span> <span style="color:#f92672">{</span>
+        System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;静态匿名代码块&#34;</span><span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span>
+    
+    <span style="color:#75715e">// 3
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Person</span><span style="color:#f92672">(){</span>
+        System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;构造方法&#34;</span><span style="color:#f92672">)</span>
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>静态导入包</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#f92672">import static</span> java.lang.Math.random<span style="color:#f92672">;</span>
+</code></pre></div><blockquote>
+<p>通过final修饰的类是不能被继承的</p>
+</blockquote>
+<h3 id="抽象类">抽象类</h3>
+<p>抽象类存在的意义：对于复杂功能的实现，可以将共有属性/方法抽象出来，提高开发效率</p>
+<p>通过<code>abstract</code>修饰的类，抽象类中可以写抽象方法（规范）也可以写普通方法（具体的实现）</p>
+<blockquote>
+<p>abstract可以修饰方法：抽象方法只有方法名字没有方法实现，抽象方法必须在抽象类中</p>
+</blockquote>
+<p>抽象类不能new，只能靠子类去实现它。但是有构造方法。</p>
+<blockquote>
+<p>抽象类可以有构造器，在继承了抽象类的子类中通过super()方法可以调用抽象类的中的构造方法。</p>
+</blockquote>
+<h3 id="接口">接口</h3>
+<p>——只有规范，没有具体实现。接口就是约束。 约束和实现分离：面向接口编程
+接口本质就是契约，体现了现实世界中“如果你是&hellip;则必须能&hellip;”的思想。
+OO的精髓是对对象的抽象，最能体现这一点的就是接口。</p>
+<ul>
+<li>接口中定义的所有方法都是抽象的public abstract；定义的所有属性默认都是常量public static final（一般不会在接口中定义常量）</li>
+<li>实现接口的类，必须重写接口的所有方法</li>
+<li>接口可以实现多继承，可以被多个类实现，implements可以实现多个接口</li>
+<li>接口不能实例化，而且没有构造方法</li>
+</ul>
+<h3 id="内部类">内部类</h3>
+<p>在类的内部定义一个类，比如：A类中定义一个B类，相对的，B类为内部类，A类为外部类。</p>
+<h4 id="1-成员内部类">1. 成员内部类</h4>
+<p>类里面写的class</p>
+<h4 id="2静态内部类">2.静态内部类</h4>
+<p>类里面写的静态class</p>
+<h4 id="3局部内部类">3.局部内部类</h4>
+<p>方法里面写的class</p>
+<h4 id="4匿名内部类">4.匿名内部类</h4>
+<p>没有名字的类。没有名字初始化类/实现接口，不用将实例保存在变量中</p>
+<h4 id="5lambda">5.lambda</h4>
+<blockquote>
+<p>一个java文件中只能有一个public，但是可以有多个class。</p>
+</blockquote>
+<h2 id="异常机制">异常机制</h2>
+<p>异常指程序运行中出现的，影响程序正常运行的各种情况。</p>
+<h3 id="error和exception">Error和Exception</h3>
+<p>异常类分为三种类型：</p>
+<ul>
+<li>检查性异常：由用户错误/问题引起的，程序员无法预见的，这类异常在编译时不能被简单忽略。例如：打开一个不存在的文件，</li>
+<li>运行时异常：可以被程序员避免的异常，这类异常可以在编译时被忽略。</li>
+<li>错误ERROR：错误不是异常，通常指灾难性的致命错误，是脱离程序控制的问题，在编译时也检查不到。例如：栈溢出问题。</li>
+</ul>
+<p><img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220206121308181.png" alt="image-20220206121308181"></p>
+<p><strong>Error</strong></p>
+<p>Error类对象由Java虚拟机生成并抛出，大多数错误与代码编写者所执行的操作无关。
+虚拟机异常发生时，JVM一般会选择线程终止。</p>
+<p><strong>Exception</strong></p>
+<p>一般由程序逻辑错误引起的，应该从逻辑角度尽可能避免这类异常的发生。</p>
+<h3 id="异常捕获">异常捕获</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">try</span><span style="color:#f92672">{</span>
+    
+<span style="color:#f92672">}</span><span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Error e<span style="color:#f92672">){</span>     <span style="color:#75715e">// 加入要捕获多个异常，异常的类型要从小到大 例如：Error / Exception --&gt; Throwable
+</span><span style="color:#75715e"></span>    
+<span style="color:#f92672">}</span><span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Exception e<span style="color:#f92672">){</span>
+    
+<span style="color:#f92672">}</span><span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>Throwable e<span style="color:#f92672">){</span>
+    
+<span style="color:#f92672">}</span><span style="color:#66d9ef">finally</span> <span style="color:#f92672">{</span>
+    
+<span style="color:#f92672">}</span>
+</code></pre></div><p>不管是否出现异常，都会执行finally中的语句。</p>
+<p>try catch是配对使用的，finally可以没有。</p>
+<h3 id="异常抛出">异常抛出</h3>
+<p>throw throws</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">test</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> a<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> b<span style="color:#f92672">)</span> <span style="color:#66d9ef">throws</span> ArithmeticException<span style="color:#f92672">{</span>    <span style="color:#75715e">// 假设方法中处理不了这个异常，应该在方法上抛出异常
+</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>b <span style="color:#f92672">==</span> 0<span style="color:#f92672">){</span>
+        <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> ArithmeticException<span style="color:#f92672">();</span>   <span style="color:#75715e">// 主动的抛出异常 一般用在方法中 ！！直接用在main方法中不生效
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><blockquote>
+<p>IDEA在方法调用处可以通过快捷键<code>ctrl+alt+t</code>进行异常捕获处理</p>
+</blockquote>
+<h3 id="自定义异常">自定义异常</h3>
+<p>只需要继承Exception类</p>
+<ol>
+<li>创建自定义异常类</li>
+<li>在方法中通过throw关键字抛出异常对象</li>
+<li>如果在当前抛出异常的方法中处理异常，可以使用try-catch捕获并处理。如果在方法声明处通过throws关键字指明要抛给方法调用者的异常，继续进行下一步操作。</li>
+<li>在出现异常方法的调用处中捕获并处理异常</li>
+</ol>
+<p>注意点：</p>
+<ol>
+<li>针对运行时异常，采用逻辑去合理规避同时辅助 try-catch 处理</li>
+<li>在多重catch块后面，可以加一个catch(Exception)来处理可以会被遗漏的异常</li>
+<li>对于不确定的代码，也可以加上 try-catch， 处理潜在异常</li>
+<li>尽量去处理异常，切忌只是简单地调用printStackTrace() 去打印</li>
+<li>具体如何处理异常，要更根据业务需求和异常类型去决定</li>
+<li>尽量添加finally语句块去释放占用的资源</li>
+</ol>
+<h2 id="注解">注解</h2>
+<p>java.Annotation      // 注释是comment</p>
+<p>注解的作用：</p>
+<ol>
+<li>不是程序本身，可以对程序做出解释</li>
+<li>==可以被其他程序（比如编译器）读取==</li>
+</ol>
+<p>注解的格式：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@注解名</span>   
+<span style="color:#75715e">// 还可以添加一些参数值，例如
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">@SuppressWarning</span><span style="color:#f92672">(</span>value <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;unchecked&#34;</span><span style="color:#f92672">)</span>
+</code></pre></div><p>注解在哪里使用？</p>
+<p>​	可以附加在package、class、method、field等上面，相当于给他们添加了额外的辅助信息，可以通过反射机制编程实现对这些元数据的访问。</p>
+<h3 id="内置注解">内置注解</h3>
+<p>@Override：定义在java.lang.Override中，此注解只适用于修饰方法，表示一个方法声明打算重写超类中的另一个方法声明。</p>
+<p>@Deprecated：定义在java.lang.Deprecated中，此注解可以用来修饰方法、属性、类， 表示不鼓励程序员使用这样的元素，但是可以使用，通常因为他们很危险或者有更好的选择。</p>
+<p>@SuppressWarning：镇压警告注解
+定义在java.lang.SuppressWarning中，用来抑制编译时的告警信息
+与前两个注解有所不同，需要添加一个参数才能正常使用，参数都是定义好的了，选择性使用即可。
+@SuppressWarning(&ldquo;all&rdquo;)
+@SuppressWarning(&ldquo;unchecked&rdquo;)
+@SuppressWarning(value = {&ldquo;unchecked&rdquo;, &ldquo;deprecation&rdquo;})</p>
+<p>源码解析：</p>
+<p><img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220206164428207.png" alt="image-20220206164428207"></p>
+<p><img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220206164515191.png" alt="image-20220206164515191"></p>
+<p>相对的，Override没有定义参数，可修饰的范围只有方法</p>
+<h3 id="元注解">元注解</h3>
+<p>作用：负责注解其他注解</p>
+<p>Java在java.lang.annotation包中定义了4个标准的meta-annotation类型：</p>
+<ul>
+<li>
+<p>@Target：用来描述注解的使用范围       在ElementType枚举类选择元素指定</p>
+<blockquote>
+<p>TYPE：表示可以在类上定义</p>
+<p>METHOD：表示可以在方法上定义</p>
+</blockquote>
+</li>
+<li>
+<p>@Retention：表示需要在什么级别保存该注解信息，用来描述注解的生命周期（即在什么时期有效）    runtime&gt;class&gt;source</p>
+<blockquote>
+<p>source：源码级别时</p>
+<p>class：编译时</p>
+<p>runtime：运行时</p>
+</blockquote>
+<p>在RetentionPolicy枚举类中选择元素指定</p>
+</li>
+<li>
+<p>@Document：表示将注解生成在javaDoc中</p>
+</li>
+<li>
+<p>@Inherited： 表示子类可以继承父类的该注解</p>
+</li>
+</ul>
+<h3 id="自定义注解">自定义注解</h3>
+<p>使用@interface会自动继承java.lang.annotation.Annotation接口</p>
+<p>注解中的每个方法实际上是声明一个个配置参数</p>
+<ul>
+<li>方法的名称就是参数的名称</li>
+<li>返回值类型就是参数类型（==返回值类型只能是基本类型、Class、String、enum==）</li>
+<li>可以通过default对声明的参数进行赋值</li>
+<li>如果只有一个参数成员，一般参数名为value</li>
+<li>注解元素必须要有值，没有默认值的，在使用的时候要进行赋值</li>
+</ul>
+<p>格式：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Target</span><span style="color:#f92672">({</span>ElementType<span style="color:#f92672">.</span><span style="color:#a6e22e">TYPE</span><span style="color:#f92672">,</span> ElementType<span style="color:#f92672">.</span><span style="color:#a6e22e">METHOD</span><span style="color:#f92672">})</span>
+<span style="color:#a6e22e">@Retention</span><span style="color:#f92672">(</span>RetentionPolicy<span style="color:#f92672">.</span><span style="color:#a6e22e">RUNTIME</span><span style="color:#f92672">)</span>
+<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">@interface</span> 注解名<span style="color:#f92672">{</span> 
+    <span style="color:#75715e">// 注解的参数定义格式： 参数类型 + 参数名();
+</span><span style="color:#75715e"></span>    String <span style="color:#a6e22e">name</span><span style="color:#f92672">()</span> <span style="color:#66d9ef">default</span> <span style="color:#e6db74">&#34;&#34;</span><span style="color:#f92672">;</span>     <span style="color:#75715e">// default &#34;&#34; 给参数赋予默认值
+</span><span style="color:#75715e"></span>    String<span style="color:#f92672">[]</span> value<span style="color:#f92672">;</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><h3 id="反射机制">==反射机制==</h3>
+<p>&ndash;为什么会有这机制？</p>
+<h4 id="静态语言-vs-动态语言">静态语言 VS 动态语言</h4>
+<p><strong>动态语言：</strong>
+在运行的时候代码可以根据某些条件改变其自身结构的语言。 主要的动态语言有：Object-C、C#、JavaScript、PHP、Python&hellip;
+<img src="/java%E5%AD%A6%E4%B9%A0.assets/image-20220206171834346.png" alt="image-20220206171834346"></p>
+<p>以JavaScript代码为例，在代码运行的时候，eval方法可以将String类型的x变量转换为一段可执行的代码</p>
+<p><strong>静态语言：</strong></p>
+<p>和动态语言相对应，运行时结构不可变的语言。 主要的静态语言有：Java、C、C++</p>
+<p>Java不是动态语言，但是Java可以称为“准动态语言”，即Java有一定的动态性，可以通过反射机制获取类似动态语言的特性，使得编程的时候更加灵活（但也会损失一定的安全性）</p>
+<p>&ndash;反射机制是什么？</p>
+<p>反射Reflection是Java实现动态性的关键</p>
+<p>反射机制允许程序在执行期借助Reflection API取得任何类的内部信息，并能直接操作任意对象的内部属性及方法。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">Class c <span style="color:#f92672">=</span> Class<span style="color:#f92672">.</span><span style="color:#a6e22e">forName</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;java.lang.String&#34;</span><span style="color:#f92672">)</span>
+</code></pre></div><p>加载完类之后，在堆内存的方法区中就会产生一个Class类型的对象（一个类只有一个Class对象），这个对象就包含了完整的类的结构信息。可以通过该对象看到类的结构。 这个对象就像一面镜子，透过这个镜子看到类的结构，所以，被形象的称之为“反射”。</p>
+<p><strong>正常方式</strong></p>
+<p><code>引入需要的“包类”名称</code> -&gt; <code>通过new实例化</code> -&gt; <code> 取得实例化对象</code></p>
+<p><strong>反射方式</strong></p>
+<p><code>实例化对象</code> -&gt; <code>getClass()方法</code>-&gt; <code>得到完整的“包类”名称</code></p>
+<h4 id="反射机制提供的功能">反射机制提供的功能</h4>
+<ol>
+<li>运行时判断任意一个对象所属的类</li>
+<li>运行时构造任意一个类的对象</li>
+<li>运行时判断任意一个类所具有的成员变量和方法</li>
+<li>运行时获取泛型信息</li>
+<li>运行时调用任意一个对象的成员变量和方法</li>
+<li>运行时处理注解</li>
+<li>生成动态代理  面向切面编程</li>
+</ol>
+<h4 id="优点缺点">优点&amp;缺点</h4>
+<p>优点：可以实现动态创建对象和编译，体现很大的灵活性</p>
+<p>缺点：影响性能</p>
+<p>反射相关的主要API</p>
+<p>怎么实现？</p>
+<p>具体应用？</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+
+<ul class="actions pagination">
+    
+
+    
+        <li><a href="/Sequin-hdd.github.io/post/blog/"
+                class="button big next"></a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+    
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/Sequin-hdd.github.io/post/blog/"></a>
+              </h3>
+              
+              <time class="published" datetime='0001-01-01'>
+                January 1, 0001
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/Sequin-hdd.github.io/post/java%E5%AD%A6%E4%B9%A0/"></a>
+              </h3>
+              
+              <time class="published" datetime='0001-01-01'>
+                January 1, 0001
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/Sequin-hdd.github.io/post/">Posts</a>
+              </h3>
+              
+              <time class="published" datetime='0001-01-01'>
+                January 1, 0001
+              </time>
+            </header>
+            
+
+          </article>
+        
+      </div>
+
+      
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+  
+
+  
+  <section id="footer">
+    
+    <p class="copyright">
+      
+        &copy; 1
+        
+          My New Hugo Site
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js//highlight.min.js"></script>
+        
+        
+        
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="/Sequin-hdd.github.io/js/util.js"></script>
+      <script src="/Sequin-hdd.github.io/js/main.js"></script>
+      <script src="/Sequin-hdd.github.io/js/backToTop.js"></script>
+    
+
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+
