@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://github.com/Sequin-hdd.github.io/post/</link>
+    <link>https://Sequin-hdd.github.io/post/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://github.com/Sequin-hdd.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://Sequin-hdd.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://github.com/Sequin-hdd.github.io/post/blog/</link>
+      <link>https://Sequin-hdd.github.io/post/blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/Sequin-hdd.github.io/post/blog/</guid>
+      <guid>https://Sequin-hdd.github.io/post/blog/</guid>
       <description>hexo搭建个人博客 1. 官网安装node.js 安装成功后，进行验证
 node -v npm -v 2. 安装镜像 npm install -g cnpm -registry=https://registry.npm.taobao.org   node.js npm install -g 全局安装和非全局安装的区别 registry： 指的是镜像源指向XXX镜像   安装成功后，校验
 cnpm cnpm -v 3. 安装hexo cnpm install -g hexo-cli 验证
@@ -21,10 +21,10 @@ hexo clean #清理 hexo g #生成 hexo s #启动 7.</description>
     
     <item>
       <title></title>
-      <link>https://github.com/Sequin-hdd.github.io/post/java%E5%AD%A6%E4%B9%A0/</link>
+      <link>https://Sequin-hdd.github.io/post/java%E5%AD%A6%E4%B9%A0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://github.com/Sequin-hdd.github.io/post/java%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>https://Sequin-hdd.github.io/post/java%E5%AD%A6%E4%B9%A0/</guid>
       <description>java学习 java简介——为什么会有Java？ 诞生于 1995 年，java源于c、c++，具有简单性，面向对象，可移植性（核心JVM，实现write once，run anywhere），高性能，分布式，动态性（反射），多线程，安全性（可构建防病毒防篡改），健壮性（异常机制）等特性。
 c：1.内存和指针管理问题（在编译期不能发现，在运行时才会暴露） 2.不同系统编译报错问题 c++：增加了很多复杂的特性，难以掌握
  ps： 三高问题： 高可用 高性能 高并发
